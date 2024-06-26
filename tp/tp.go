@@ -1,9 +1,10 @@
 package tp
 
 type Player struct {
-	Position int
-	Size     int
-	life     int
+	Position_y int
+	Position_x int
+	Size       int
+	life       int
 }
 
 type Screen struct {
