@@ -28,10 +28,11 @@ func startScreen() {
 	for !rl.WindowShouldClose() {
 		rl.BeginDrawing()
 		rl.ClearBackground(rl.White)
-		rl.DrawText("hello world", p.Position_x, p.Position_y, 20, rl.Pink)
+		rl.DrawText("hello Player", p.Position_x, p.Position_y, 20, rl.Pink)
 		rl.DrawFPS(scr.Width-50, 0)
 		rl.EndDrawing()
 		p.Movement(scr)
+
 	}
 
 }
